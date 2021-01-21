@@ -1,0 +1,132 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181719;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 2% 4%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Crimson Pro", serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 200;
+  border: 1px solid white;
+  padding: 0.5%;
+  line-height: 15.56px;
+}
+
+nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  padding-bottom: 2%;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  line-height: 61.44px;
+  margin-top: 0;
+}
+
+section p {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 29.26px;
+}
+
+section a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+}
+
+.cta {
+  width: 25%;
+}
+
+.image-and-designer {
+  width: 70%;
+}
+
+.interior-img {
+  width: 45%;
+  position: absolute;
+  left: 40%;
+  z-index: -1;
+}
+
+.business-card {
+  background-color: #181719;
+  width: 30%;
+  padding: 1% 2% 0;
+  margin: 46% 0 0 47%;
+}
+
+.designer-info {
+  display: flex;
+}
+
+.designer-info div {
+  margin-top: 0.7%;
+}
+
+.designer-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
+h2 {
+  margin-top: 5%;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+}
+
+.position-title {
+  color: #828282;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.63px;
+}
+
+.designed-by {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.72px;
+  font-family: "Lora", serif;
+  width: 70%;
+}
