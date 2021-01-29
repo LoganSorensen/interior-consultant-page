@@ -33,12 +33,9 @@ header {
   line-height: 15.56px;
 }
 
-.menu-btn {
-  display: none;
-}
 
-.menu-close {
-  display: none;
+.hidden {
+  display: none !important;
 }
 
 nav {
@@ -157,12 +154,12 @@ footer {
   }
 
   .menu-btn {
-    display: inline;
+    display: inline !important;
     font-size: 30px;
   }
 
   .menu-close {
-    display: block;
+    display: block !important;
     position: absolute;
     top: 1%;
     left: 90%;
